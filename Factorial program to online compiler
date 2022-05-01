@@ -1,0 +1,16 @@
+// Online C compiler to run Factorial program
+#include <stdio.h>
+
+int main()
+{
+    int i,fact=1,user;
+    printf("Enter the number");
+    scanf("%d",&user);
+    for(i=1;i<=user;i++)
+    {
+        fact=fact*i;
+    }
+    printf("Factorial:%d",fact);
+    return 0;
+    
+}
